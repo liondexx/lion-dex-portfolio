@@ -18,7 +18,7 @@ export default function NavBar() {
         <Image
           src={github}
           alt="github-icon"
-          className="w-9 sm:w-16 hover:w-20"
+          className="w-9 sm:w-16 xl:hover:w-20"
         />
       </Link>
       <Link
@@ -29,7 +29,7 @@ export default function NavBar() {
         <Image
           src={linkedin}
           alt="linkedin-link"
-          className="w-9 sm:w-16 hover:w-20"
+          className="w-9 sm:w-16 xl:hover:w-20"
         />
       </Link>
       <Link
@@ -40,7 +40,7 @@ export default function NavBar() {
         <Image
           src={curriculum}
           alt="curriculo-link"
-          className="w-9 sm:w-16 hover:w-20"
+          className="w-9 sm:w-16 xl:hover:w-20"
         />
       </Link>
     </nav>
