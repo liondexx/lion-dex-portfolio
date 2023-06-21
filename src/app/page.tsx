@@ -20,8 +20,9 @@ export default function Home() {
               DEVELOPER
             </h1>
             <p className="text-xs font-semibold sm:text-2xl xl:font-normal">
-              Sou programador a 3 anos, trabalho como freelancer, entre em
-              contato.
+              Olá meu nome é Lion, sou programador a 3 anos, trabalho como
+              autonomo, sou apiaxaonado por ui, vai ser um prazer trabalhar com
+              vc.
             </p>
           </div>
         </section>

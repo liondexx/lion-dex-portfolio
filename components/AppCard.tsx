@@ -3,14 +3,14 @@ import expempleApps from "../public/device-mobile.png";
 
 export default function AppCard() {
   return (
-    <div className="flex flex-col items-center ">
+    <div className="flex flex-col items-center shadow-lg ">
       <Image
         className="inline-block w-5/5"
         src={expempleApps}
         alt="exemple-apps"
       />
       <p className="text-center font-semibold ">
-        cat ipsum scratch, ipssum hlwio scratch io ispum cat cat
+        este é um projeto com HTML & CSS não autoral, em breve novos projetos!
       </p>
     </div>
   );
