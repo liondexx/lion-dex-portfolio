@@ -7,7 +7,7 @@ import linkedin from "public/linkedin_icon.svg";
 export default function NavBar() {
   return (
     <nav
-      className="flex h-36 justify-between px-3 text-1xl gap-2 font-semibold py-4 md:px-10 sm:text-3xl sm:py-10
+      className="flex xl:h-36 justify-between px-3 text-1xl gap-2 font-semibold py-4 md:px-10 sm:text-3xl sm:py-10
       flex-wrap md:justify-around xl:p-0 xl:pt-6 xl:pr-16 xl:justify-end"
     >
       <Link
