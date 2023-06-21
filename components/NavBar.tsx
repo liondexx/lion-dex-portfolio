@@ -22,6 +22,7 @@ export default function NavBar() {
         />
       </Link>
       <Link
+        target="_blank"
         href="https://www.linkedin.com/in/lion-patrocino-96b808229/"
         className="flex items-center xl:ml-24"
       >
@@ -32,6 +33,7 @@ export default function NavBar() {
         />
       </Link>
       <Link
+        target="_blank"
         href="https://docs.google.com/document/d/1ZOdIUhwBNUM5f378i0-V3_O6JeL6DhNI6elGRM_Iofw/edit#heading=h.7vtcyzeczjot"
         className="flex items-center xl:ml-24"
       >

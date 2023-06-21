@@ -3,7 +3,7 @@ import expempleApps from "../public/device-mobile.png";
 
 export default function AppCard() {
   return (
-    <div className="flex flex-col items-center shadow-lg ">
+    <div className="flex flex-col items-center">
       <Image
         className="inline-block w-5/5"
         src={expempleApps}

@@ -7,18 +7,20 @@ export default function Footer() {
       flex-col font-bold tracking-wide p-6 xl:px-64 xl:py-14 xl:text-xl"
     >
       <ul className="flex flex-wrap  leading-5">
-        <li className="border-b mr-3 mb-2">
-          <Link href="/">Home</Link>{" "}
-        </li>
-        <li className="border-b mr-3 mb-2">
+        <li className="border-b mb-2">
           <Link href="mailto:lionlpcc@gmail.com">Say Hi</Link>
         </li>
         <li className="border-b mr-3 mb-2">
-          <Link href="https://github.com/liondexx">Github</Link>
+          <Link target="_blank" href="https://github.com/liondexx">
+            Github
+          </Link>
         </li>
 
         <li className="border-b mr-3 mb-2">
-          <Link href="https://www.linkedin.com/in/lion-patrocino-96b808229/">
+          <Link
+            target="_blank"
+            href="https://www.linkedin.com/in/lion-patrocino-96b808229/"
+          >
             Linkedin
           </Link>
         </li>
@@ -26,6 +28,7 @@ export default function Footer() {
       <p>
         © 2023 Lion Patrocinio Cunha Costa |{" "}
         <Link
+          target="_blank"
           className="border-b"
           href="https://github.com/liondexx/lion-dex-portfolio"
         >
