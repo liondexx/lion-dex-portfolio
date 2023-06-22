@@ -21,8 +21,8 @@ export default function Home() {
             </h1>
             <p className="text-xs font-semibold sm:text-2xl xl:font-normal">
               Olá meu nome é Lion, sou programador a 3 anos, trabalho como
-              autonomo, sou apiaxaonado por ui, vai ser um prazer trabalhar com
-              vc.
+              autônomo, sou apiaxonado por UI, vai ser um prazer trabalhar com
+              você.
             </p>
           </div>
         </section>
