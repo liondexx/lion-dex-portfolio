@@ -9,7 +9,7 @@ export default function Home() {
       <div className="flex text-gray-100 flex-col justify-center">
         <NavBar />
         <section className="flex justify-center">
-          <div className="max-w-3xl xl:py-60 mc:px-8 nn:p-1 min-[360px]:p-3 md:px-3">
+          <div className="max-w-3xl xl:py-32 mc:px-8 nn:p-1 min-[360px]:p-3 md:px-3">
             <h2 className="font-bold font sm:text-4xl max-[360px]:text-xl min-[520px]:text-2xl">
               OI, EU SOU LION👋
             </h2>
