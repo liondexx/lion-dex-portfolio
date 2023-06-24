@@ -8,7 +8,7 @@ export default function Footer() {
     >
       <ul className="flex flex-wrap  leading-5">
         <li className="border-b mb-2">
-          <Link href="mailto:lionlpcc@gmail.com">Say Hi</Link>
+          <Link href="mailto:lionlpcc@gmail.com">Email</Link>
         </li>
 
         <li className="border-b mr-3 ml-3 mb-2">
