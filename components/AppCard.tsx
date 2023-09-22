@@ -1,17 +1,18 @@
 import Image from "next/image";
-import expempleApps from "../public/device-mobile.png";
+import expempleApps from "../public/screenshot.png";
+import Link from "next/link";
 
-export default function AppCard() {
+export default function AppCard({ props }: any) {
+  const link = props;
   return (
-    <div className="flex flex-col items-center">
-      <Image
-        className="inline-block w-5/5"
-        src={expempleApps}
-        alt="exemple-apps"
-      />
-      <p className="text-center font-semibold ">
-        este é um projeto com HTML & CSS não autoral, em breve novos projetos!
-      </p>
-    </div>
+    <Link href={link}>
+      <div className="flex flex-col items-center my-20">
+        <Image
+          className="inline-block w-5/6"
+          src={expempleApps}
+          alt="exemple-apps"
+        />
+      </div>
+    </Link>
   );
 }
